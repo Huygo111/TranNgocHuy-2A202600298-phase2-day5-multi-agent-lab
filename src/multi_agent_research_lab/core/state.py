@@ -21,6 +21,9 @@ class ResearchState(BaseModel):
     research_notes: str | None = None
     analysis_notes: str | None = None
     final_answer: str | None = None
+    critic_notes: str | None = None
+    quality_score: float | None = None
+    citation_coverage: float | None = None
 
     agent_results: list[AgentResult] = Field(default_factory=list)
     trace: list[dict[str, Any]] = Field(default_factory=list)

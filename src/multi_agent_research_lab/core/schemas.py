@@ -35,7 +35,14 @@ class SourceDocument(BaseModel):
 
 class BenchmarkMetrics(BaseModel):
     run_name: str
+    variant: str | None = None
+    query: str | None = None
     latency_seconds: float
     estimated_cost_usd: float | None = None
     quality_score: float | None = Field(default=None, ge=0, le=10)
+    citation_coverage: float | None = Field(default=None, ge=0, le=1)
+    failed: bool = False
+    trace_json_path: str | None = None
+    trace_markdown_path: str | None = None
+    trace_url: str | None = None
     notes: str = ""

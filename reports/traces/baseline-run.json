@@ -1,0 +1,29 @@
+{
+  "request": {
+    "query": "Explain multi-agent systems",
+    "max_sources": 5,
+    "audience": "technical learners"
+  },
+  "iteration": 0,
+  "route_history": [],
+  "sources": [],
+  "research_notes": null,
+  "analysis_notes": null,
+  "final_answer": "Baseline answer",
+  "critic_notes": null,
+  "quality_score": null,
+  "citation_coverage": null,
+  "agent_results": [],
+  "trace": [
+    {
+      "name": "baseline_completion",
+      "payload": {
+        "latency_seconds": 0.0,
+        "input_tokens": 10,
+        "output_tokens": 20,
+        "cost_usd": 0.001
+      }
+    }
+  ],
+  "errors": []
+}

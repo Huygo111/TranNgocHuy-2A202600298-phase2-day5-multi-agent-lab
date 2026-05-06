@@ -13,7 +13,7 @@ format:
 	ruff format src tests
 
 typecheck:
-	mypy src
+	mypy src tests --cache-dir .mypy_cache_local --no-sqlite-cache
 
 run-baseline:
 	python -m multi_agent_research_lab.cli baseline --query "Research GraphRAG state-of-the-art"

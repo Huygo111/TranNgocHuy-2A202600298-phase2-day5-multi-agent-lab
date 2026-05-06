@@ -24,6 +24,7 @@ llm = [
   "openai>=1.40",
   "langgraph>=0.2",
   "langchain-core>=0.2",
+  "langfuse",
   "langsmith>=0.1"
 ]
 dev = [

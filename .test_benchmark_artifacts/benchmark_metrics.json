@@ -1,0 +1,30 @@
+[
+  {
+    "run_name": "baseline-benchmark-1",
+    "variant": "baseline",
+    "query": "Explain multi-agent systems",
+    "latency_seconds": 3.6999990697950125e-05,
+    "estimated_cost_usd": 0.001,
+    "quality_score": null,
+    "citation_coverage": 0.0,
+    "failed": false,
+    "trace_json_path": "traces/baseline-benchmark-1.json",
+    "trace_markdown_path": "traces/baseline-benchmark-1.md",
+    "trace_url": null,
+    "notes": "route=no-routes; sources=0; critic=no; errors=0"
+  },
+  {
+    "run_name": "multi-agent-benchmark-1",
+    "variant": "multi-agent",
+    "query": "Explain multi-agent systems",
+    "latency_seconds": 2.3999600671231747e-06,
+    "estimated_cost_usd": null,
+    "quality_score": null,
+    "citation_coverage": null,
+    "failed": true,
+    "trace_json_path": null,
+    "trace_markdown_path": null,
+    "trace_url": null,
+    "notes": "Failed: test_benchmark_command_writes_report.<locals>.fake_run_multi_agent_state() got an unexpected keyword argument 'enable_critic'"
+  }
+]

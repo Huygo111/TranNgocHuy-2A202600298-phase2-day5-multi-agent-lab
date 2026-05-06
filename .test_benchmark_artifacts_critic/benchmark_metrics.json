@@ -1,0 +1,44 @@
+[
+  {
+    "run_name": "baseline-benchmark-1",
+    "variant": "baseline",
+    "query": "Explain multi-agent systems",
+    "latency_seconds": 1.3699987903237343e-05,
+    "estimated_cost_usd": null,
+    "quality_score": null,
+    "citation_coverage": 0.0,
+    "failed": false,
+    "trace_json_path": "traces/baseline-benchmark-1.json",
+    "trace_markdown_path": "traces/baseline-benchmark-1.md",
+    "trace_url": null,
+    "notes": "route=no-routes; sources=0; critic=no; errors=0"
+  },
+  {
+    "run_name": "multi-agent-benchmark-1",
+    "variant": "multi-agent",
+    "query": "Explain multi-agent systems",
+    "latency_seconds": 1.1499971151351929e-05,
+    "estimated_cost_usd": null,
+    "quality_score": null,
+    "citation_coverage": 1.0,
+    "failed": false,
+    "trace_json_path": "traces/multi-agent-benchmark-1.json",
+    "trace_markdown_path": "traces/multi-agent-benchmark-1.md",
+    "trace_url": null,
+    "notes": "route=no-routes; sources=0; critic=no; errors=0"
+  },
+  {
+    "run_name": "multi-agent-critic-benchmark-1",
+    "variant": "multi-agent-critic",
+    "query": "Explain multi-agent systems",
+    "latency_seconds": 1.0300020221620798e-05,
+    "estimated_cost_usd": null,
+    "quality_score": 8.0,
+    "citation_coverage": 1.0,
+    "failed": false,
+    "trace_json_path": "traces/multi-agent-critic-benchmark-1.json",
+    "trace_markdown_path": "traces/multi-agent-critic-benchmark-1.md",
+    "trace_url": null,
+    "notes": "route=no-routes; sources=0; critic=yes; errors=0"
+  }
+]
